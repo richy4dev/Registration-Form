@@ -1,1 +1,143 @@
+<div class="container">
+    <header class="header">
+      <h1 id="title" class="text-center">Alt School Registration Form</h1>
+      <p id="description" class="description text-center">
+        Fill out the form to complete your Registration
+      </p>
+    </header>
+    <form id="survey-form">
+      <div class="form-group">
+        <label id="name-label" for="name">Fullname</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          class="form-control"
+          placeholder="Enter your name"
+          required
+        />
+      </div>
 
+      <div class="form-group">
+        <label id="email-label" for="email">Email</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          class="form-control"
+          placeholder="Enter your Email"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+    </div>
+
+      <div>
+        <label for="pass">Password (8 characters minimum):</label>
+        <input type="password" id="pass" name="password"
+               minlength="8" required>
+    </div>
+
+    <div>
+        <label for="start">Date of birth:</label>
+
+<input type="date" id="start" name="trip-start"
+       value="2018-05-12"
+       min="1972-01-01" max="2006-01-01">
+    </div>
+
+    <div>
+        <p>gender</p>
+        <input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+
+    </div>
+          
+      <div class="form-group">
+        <p>
+          What course are you interested in?
+          <span class="clue">(Check all that apply)</span>
+        </p>
+  
+        <label
+          ><input
+            name="prefer"
+            value="Front-end Engineering"
+            type="checkbox"
+            class="input-checkbox"
+          />Front-end Engineering</label
+        >
+        <label>
+          <input
+            name="prefer"
+            value="Back-end Engineering"
+            type="checkbox"
+            class="input-checkbox"
+          />Back-end Engineering</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Cloud Engineering"
+            type="checkbox"
+            class="input-checkbox"
+          />Cloud Engineering</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Product Design"
+            type="checkbox"
+            class="input-checkbox"
+          />Product Design</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Product Management"
+            type="checkbox"
+            class="input-checkbox"
+          />Product Management</label
+        >
+        <label
+          ><input
+            name="prefer"
+            value="Product Marketing"
+            type="checkbox"
+            class="input-checkbox"
+          />Product Marketing</label
+        >
+     
+      </div>
+
+      <!--<div class="tacbox">
+  <input type="checkbox" />
+  I agree to these <a href="#">Terms and Conditions</a>.
+</div>
+-->
+<div class="tacbox">
+    <input id="checkbox" type="checkbox" />
+    <label for="checkbox"> I agree to these <a href="#">Terms and Conditions</a>.</label>
+  </div>
+  <!--
+  <label class="tacbox">
+    <input type="checkbox" />
+    I agree to these <a href="#">Terms and Conditions</a>.
+  </label>
+  
+  <label for="taccheck" class="tacbox">
+    <input id="taccheck" type="checkbox" />
+    I agree to these <a href="#">Terms and Conditions</a>.
+  </label>
+      
+      <div class="form-group">
+        <button type="submit" id="submit" class="submit-button">
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+  
